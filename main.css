@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 999;
+    padding-top: 5px;
+    transform: translate(-50%, 0%);
+}
+
+.controls button {
+    border: 2px solid #a8a8a8;
+    outline: none;
+    background-color: white;
+    font-size: 110%;
+    height: 30px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#timestamp {
+    margin-top: 2px;
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px black solid;
+    font-weight: bold;
+}
+
+#timestamp.past {
+    background-color: #8aa5ce
+}
+
+#timestamp.future {
+    background-color: #ad8ace
+}
+
+#mapid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.leaflet-control-attribution {
+    font-size: x-small;
+}
